@@ -8,10 +8,12 @@ export default function TextForm(props) {
     const handleUpClick = () => {
        let newText = Text.toUpperCase();
         setText(newText)
+        props.showAlert("Converted to UpperCase", "success");
     }
     const handlelowClick = () => {
         let newText = Text.toLowerCase();
         setText(newText)
+        props.showAlert("Converted to LowerCase", "danger");
     }
  
     const handleOnChange = (event) => {
@@ -22,10 +24,10 @@ export default function TextForm(props) {
    
     return (
         <>
-<div className="container my-3">
+            <div className="container my-3" style={{ color: props.mode === 'dark' ? 'white' : 'black' }}>
 <div className="form-group">
     <h2 className="text text-center" > <label htmlFor="exampleFormControlTextarea1">{ props.Heading }</label></h2>
-        <textarea value={Text} onChange={handleOnChange} className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder={props.Placeholder}></textarea>
+                    <textarea value={Text} onChange={handleOnChange} style={{ backgroundColor: props.mode === 'dark' ? '#182d56d9' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }} className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder={props.Placeholder}></textarea>
     </div>
     <div className="container">
                     <div className="d-flex justify-content-around">
