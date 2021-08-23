@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-with-Akshay/static/css/main.668b0123.chunk.css",
+    "main.js": "/react-with-Akshay/static/js/main.bfa8a86a.chunk.js",
+    "main.js.map": "/react-with-Akshay/static/js/main.bfa8a86a.chunk.js.map",
+    "runtime-main.js": "/react-with-Akshay/static/js/runtime-main.3492b804.js",
+    "runtime-main.js.map": "/react-with-Akshay/static/js/runtime-main.3492b804.js.map",
+    "static/js/2.a4dbbd4a.chunk.js": "/react-with-Akshay/static/js/2.a4dbbd4a.chunk.js",
+    "static/js/2.a4dbbd4a.chunk.js.map": "/react-with-Akshay/static/js/2.a4dbbd4a.chunk.js.map",
+    "static/js/3.7558f0bf.chunk.js": "/react-with-Akshay/static/js/3.7558f0bf.chunk.js",
+    "static/js/3.7558f0bf.chunk.js.map": "/react-with-Akshay/static/js/3.7558f0bf.chunk.js.map",
+    "index.html": "/react-with-Akshay/index.html",
+    "static/css/main.668b0123.chunk.css.map": "/react-with-Akshay/static/css/main.668b0123.chunk.css.map",
+    "static/js/2.a4dbbd4a.chunk.js.LICENSE.txt": "/react-with-Akshay/static/js/2.a4dbbd4a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3492b804.js",
+    "static/js/2.a4dbbd4a.chunk.js",
+    "static/css/main.668b0123.chunk.css",
+    "static/js/main.bfa8a86a.chunk.js"
+  ]
+}
