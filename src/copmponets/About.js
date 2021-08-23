@@ -5,7 +5,7 @@ export default function About(props) {
     
     return (
 <>
-            <div classNameName="container my-2  " style={{ backgroundColor: props.mode === 'dark' ? '#182d56d9' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }}>
+            <div className="container my-2  " style={{ backgroundColor: props.mode === 'dark' ? '#182d56d9' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }}>
   <h3 className="text text-center ">{ props.Title}</h3>
                 <div id="accordion " >
                     <div className="card mx-5 border " >
